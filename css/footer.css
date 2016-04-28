@@ -1,0 +1,212 @@
+/*------------FOOTER------------*/
+
+.footerTopLeft{
+    width: 26px;
+    height: 6px;
+    float: left;
+    background-image: url(../images/footer/footerTopLeft.png);
+    position: relative;
+    top:-6px;
+}
+.footerTopRight{
+    width: 27px;
+    height: 6px;
+    float: right;
+    background-image: url(../images/footer/footerTopRight.png);
+    position: relative;
+    top:-6px;
+}
+.footer{
+    width: 100%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.footerTop {
+    background-color: #999;
+}
+.footerTop ul{
+    margin-left: 55px;
+} 
+.footerTop li{
+    list-style: none;
+    float: left;
+    line-height: 48px;
+}
+.footerTop li:nth-child(1){
+    padding-right: 30px;
+}
+.footerTop  a {
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer a:hover {
+    text-decoration:underline;
+}   
+.footerContent{
+    background-color: #333;
+    padding: 5% 5%0;
+    overflow: hidden;
+}
+.company, .help, .site_info{
+    max-width: 120px;
+    float: left;
+    margin-right: 6%;
+    margin-bottom: 15px;
+}
+.company h5, .help h5, .site_info h5 {
+    color: #eee;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.company li, .help li, .site_info li{
+    list-style-type: none; 
+}
+.company a, .help a, .site_info a{
+    color: #aaa;
+    font-size: 12px;
+}
+.company .social {
+    left: -5px;
+    margin-top: 5px;
+    position: relative;
+}
+.company .social a{
+    font-size: 20px;
+    float: left;
+    text-decoration: none;
+}
+.footerLogo{
+    float: right;
+    width: 115px;
+    text-align: center;
+}
+.footerLogo img{
+    border-radius: 8px;
+}
+.copyright{
+    color: #aaa;
+    width: 89.6%;
+    margin: 50px 0 0;
+    display: inline-block;
+}
+.copyright i{
+    font-size: 10px;
+}
+.copyright p{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/*-------------END FOOTER----------------*/
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 993px){
+
+    .footerTopLeft, .footerTopRight{
+        display: none;
+    }
+    .footerTop ul{
+        margin-left: 3%;
+    }
+    .footerLogo{
+        display: none;
+    }
+    .company a, .help a, .site_info a{
+        text-decoration: underline;
+    }
+
+}
+@media only screen and (max-width : 800px) {
+
+
+}
+@media only screen and (max-width : 768px) {
+
+    .footerTop  li{
+        line-height: 43px;
+    }
+}
+@media only screen and (max-width : 600px) {
+
+
+
+}
+@media only screen and (max-width : 520px) {
+
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+    .site_info{
+        float: none;
+        margin-top: 20px;
+    }
+    .footerTop  li{
+        line-height: 33px;
+    }
+}  
+
+@media only screen and (max-width : 400px){
+
+    .footer_addressModal{
+        padding-left: 30px;
+    } 
+}
+@media only screen and (max-width: 350px){
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+} 
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+
+@media only screen and (min-width : 520px) {
+    /* .addressBookItem{
+    width: 44%;
+    text-align: left;
+}*/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 993px) {
+
+    .footerTop  a:hover{
+        color: #fff;
+    }
+
+    .company .social a:hover{
+        text-decoration: none;
+    }
+
+
+}
+@media only screen and (min-width : 1050px) {
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1060px) {
+}       
